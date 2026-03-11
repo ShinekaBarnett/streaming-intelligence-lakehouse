@@ -1,0 +1,40 @@
+<svg width="900" height="420" xmlns="http://www.w3.org/2000/svg">
+<style>
+.box{fill:#f3f6ff;stroke:#4a6cf7;stroke-width:2;}
+.text{font-family:Arial;font-size:14px;}
+.arrow{stroke:#555;stroke-width:2;marker-end:url(#arrow);}
+</style>
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+<path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+</marker>
+</defs>
+
+<rect class="box" x="40" y="40" width="200" height="60"/>
+<text class="text" x="70" y="75">Streaming Apps</text>
+
+<rect class="box" x="340" y="40" width="200" height="60"/>
+<text class="text" x="375" y="75">Playback Events</text>
+
+<rect class="box" x="640" y="40" width="200" height="60"/>
+<text class="text" x="675" y="75">Raw Data Lake</text>
+
+<rect class="box" x="120" y="180" width="200" height="60"/>
+<text class="text" x="170" y="215">Bronze Layer</text>
+
+<rect class="box" x="380" y="180" width="200" height="60"/>
+<text class="text" x="430" y="215">Silver Layer</text>
+
+<rect class="box" x="640" y="180" width="200" height="60"/>
+<text class="text" x="700" y="215">Gold Layer</text>
+
+<rect class="box" x="380" y="320" width="200" height="60"/>
+<text class="text" x="410" y="355">Dashboards / ML</text>
+
+<line class="arrow" x1="240" y1="70" x2="340" y2="70"/>
+<line class="arrow" x1="540" y1="70" x2="640" y2="70"/>
+<line class="arrow" x1="740" y1="100" x2="220" y2="180"/>
+<line class="arrow" x1="320" y1="210" x2="380" y2="210"/>
+<line class="arrow" x1="580" y1="210" x2="640" y2="210"/>
+<line class="arrow" x1="740" y1="240" x2="480" y2="320"/>
+</svg>
