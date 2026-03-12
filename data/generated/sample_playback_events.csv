@@ -1,0 +1,4 @@
+event_id,user_id,session_id,content_id,event_type,device_type,platform,country,watch_seconds,completion_pct,event_timestamp
+evt_1,user_101,sess_1,movie_10,play,smart_tv,tv_os,US,120,5.2,2026-03-11 20:04:33
+evt_2,user_101,sess_1,movie_10,pause,smart_tv,tv_os,US,30,5.2,2026-03-11 20:06:12
+evt_3,user_102,sess_2,movie_12,complete,mobile,ios,UK,5400,100,2026-03-11 21:00:11

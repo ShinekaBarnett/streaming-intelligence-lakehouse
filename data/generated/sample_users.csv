@@ -1,0 +1,4 @@
+user_id,account_id,signup_date,subscription_plan,country,preferred_language
+user_101,acct_1,2024-08-15,premium,US,English
+user_102,acct_2,2024-09-01,standard,UK,English
+user_103,acct_3,2025-01-10,basic,CA,English
